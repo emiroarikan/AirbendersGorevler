@@ -53,6 +53,8 @@ int main() {
         }
     }
     
+    afile.close();
+    
     cout << "Matrix A is:" << endl;
     for (int i = 0; i < aMatrix[0].size(); i++) {
         for (auto k: aMatrix[i]) {
