@@ -34,7 +34,7 @@ int RegularPolygon::count = 0;
 int main() {
     RegularPolygon square = RegularPolygon(4);
     RegularPolygon triangle = RegularPolygon(3);
-    RegularPolygon za = RegularPolygon(7);
+    RegularPolygon foo = RegularPolygon(7);
 
     cout << square.area(4) << endl << square.lenght(49) << endl;
     cout << triangle.area(4) << endl << triangle.lenght(49) << endl;
